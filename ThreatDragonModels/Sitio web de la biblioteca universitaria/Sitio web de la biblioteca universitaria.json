@@ -1,0 +1,37 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-09-08",
+  "summary": {
+    "title": "Sitio web de la biblioteca universitaria",
+    "owner": "Alexander Montes Rodríguez",
+    "description": "El sistema brinda servicios en línea a estudiantes, personal universitario y bibliotecarios. Los estudiantes y el personal pueden iniciar sesión y buscar libros, mientras que los miembros del personal también pueden solicitar libros. Los bibliotecarios pueden iniciar sesión, agregar libros, agregar usuarios y realizar búsquedas.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD de alto nivel",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      },
+      {
+        "id": 1,
+        "title": "DFD de inicio de sesión",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "Guillermo Humberto Vera Amaro",
+    "threatTop": 0
+  }
+}
