@@ -1600,6 +1600,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -1683,7 +1684,6 @@
               ]
             },
             "id": "0d2b1e3f-0062-4127-8df0-9334fbf43d30",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuarios",
@@ -1735,6 +1735,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -1818,7 +1819,6 @@
               ]
             },
             "id": "431a1ccb-de19-46c8-83da-fc91afefa95d",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Controlador\nweb",
@@ -1877,6 +1877,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -1960,7 +1961,6 @@
               ]
             },
             "id": "631dcc4a-7c5a-408c-922b-07220b514169",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Proceso\nde login",
@@ -2022,6 +2022,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -2105,7 +2106,6 @@
               ]
             },
             "id": "b5215a58-af5d-42dd-96be-eaa491520eff",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Páginas web\nen disco",
@@ -2168,6 +2168,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -2251,7 +2252,6 @@
               ]
             },
             "id": "45808b09-0b37-411b-b045-929615bfa0ab",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "Bases de datos",
@@ -2284,7 +2284,7 @@
                   "title": "Robo de credenciales",
                   "status": "Open",
                   "severity": "Medium",
-                  "type": "Denial of service / Denegación de servicio",
+                  "type": "Information disclosure / Brecha de información",
                   "description": "Un atacante podría obtener credenciales de la BD y utilizarlas para realizar consultas no autorizadas",
                   "mitigation": "Utilizar firewall para restringir el acceso a la BD únicamente a la IP autorizada",
                   "modelType": "STRIDE",
@@ -2296,18 +2296,9 @@
               "threatFrequency": {
                 "tampering": 1,
                 "repudiation": 0,
-                "informationDisclosure": 0,
+                "informationDisclosure": 1,
                 "denialOfService": 1
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
