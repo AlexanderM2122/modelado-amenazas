@@ -2299,6 +2299,15 @@
                 "informationDisclosure": 0,
                 "denialOfService": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
